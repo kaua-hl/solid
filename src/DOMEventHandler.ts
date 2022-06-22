@@ -1,4 +1,4 @@
-import EventHandler from "./EventHandler.js";
+import EventHandler from "./protocols/EventHandler.js";
 
 export default class DOMEventHandler implements EventHandler {
   addEventListenerToClass(clazz: string, event: string, fn: any) {

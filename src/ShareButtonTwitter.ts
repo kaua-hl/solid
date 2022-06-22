@@ -1,5 +1,5 @@
-import AbstractLinkShareButton from "./AbstractLinkShareButton.js";
-import EventHandler from "./EventHandler.js";
+import AbstractLinkShareButton from "./protocols/AbstractLinkShareButton.js";
+import EventHandler from "./protocols/EventHandler.js";
 
 export default class ShareButtonTwitter extends AbstractLinkShareButton {
   constructor(eventHandler: EventHandler, clazz: string, url: string) {

@@ -13,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-import AbstractShareButton from "./AbstractShareButton.js";
+import AbstractShareButton from "./protocols/AbstractShareButton.js";
 var ShareButtonTwitter = /** @class */ (function (_super) {
     __extends(ShareButtonTwitter, _super);
     function ShareButtonTwitter(eventHandler, clazz) {
